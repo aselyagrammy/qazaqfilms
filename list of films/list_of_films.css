@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    font-family: 'Bahnschrift', sans-serif;
+    background-color: #3e485c;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #2e3b55;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.header-link {
+    text-decoration: none; 
+    color: white; 
+}
+.header-link h1 {
+    margin: 0;
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 10px;
+}
+nav a {
+    color: #f7c948;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+nav a:hover {
+    background-color: #ffffff;
+    color: #2e3b55;
+}
+
+
+/* Film List */
+.film-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.film-item {
+    display: flex;
+    align-items: flex-start;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    transition: transform 0.3s ease;
+}
+.film-item:hover {
+    transform: translateY(-10px);
+}
+.film-item img {
+    width: 120px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.film-info {
+    flex-grow: 1;
+}
+.film-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #2e3b55;
+}
+.film-year {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #666666;
+}
+.film-about {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+/* Ratings */
+.star {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: gray;
+}
+
+.selected {
+    color: gold;
+}
+
+.rating-message {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2e3b55;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #cccccc;
+}
+footer a {
+    color: #f7c948;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/*-------------------------------------------*/
+
+/* Button Styles */
+.styled-button {
+    padding: 15px 30px;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b); 
+    border: none;
+    color: #ffffff;
+    font-size: 1.1em;
+    border-radius: 30px; 
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.styled-button:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); 
+}
+.styled-button:active {
+    transform: translateY(0); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+/*--------------------------------------------------*/
+
