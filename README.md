@@ -1,11 +1,12 @@
 # qazaqfilms
 
-**QAZAQ FILMS** something
+**QAZAQ FILMS by BAYAN MAQSATQYZY**
 
-## something
+##PAGES
 
-- **something**
-- **something**
-- **something**
-- **something**
-- **something**
+- **Main Page** - 
+- **Filmografy**
+- **Biografy**
+- **Registry**
+- **Link to the IVI**
+  
